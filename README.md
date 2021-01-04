@@ -1,6 +1,6 @@
 # Website for Jabba The Huck
 
-![Jabba The Huck](assets/documents/)
+![Jabba The Huck](assets/documents/logo.png)
 
 ## Code Institute Milestone Project 1 : User-Centric Front End Development
 
