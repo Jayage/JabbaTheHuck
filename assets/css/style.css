@@ -9,14 +9,15 @@ background-color: #183446;
     background-color: #38AECC;
 }
 .ui-menu-color-players {
-    background-color: #9b59b6;
-}
-.ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #183446;
 }
 .ui-menu-color-history {
-    background-color: #525252;
+    background-color: #38AECC;
 }
+.ui-menu-color-contact {
+    background-color: #183446;
+}
+
 
 
 /*---------------Special paddings /margins/text*/
@@ -122,8 +123,9 @@ header{
     letter-spacing: 2px;
 }
 
-/*----------------------Hover.css*/
-.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0,0.2);    
-    height: 120px;
+/*---------Footer*/
+
+footer{
+    background-color: #183446;
+    color: #fff;
 }
