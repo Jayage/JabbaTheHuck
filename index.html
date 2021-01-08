@@ -17,7 +17,7 @@
             <a href="index.html" class="col-md-8 logo"></a>
             <div class="col-md-4">
                     <div class="col heading">
-                        <ul id="nav" class="list-inline menucontainer">
+                        <ul id="nav topnav" class="list-inline menucontainer topnav">
                             <li class="col-4 col-sm-3 ui-menu-color-home list-inline-item menuitem">
                                 <a href="index.html" class="hvr-bounce-in"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
@@ -30,6 +30,8 @@
                             <li class="col-4 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
                                 <a href="contact.html" class="hvr-bounce-in"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> </a>
+                            <i class="fa fa-bars"></i>
                         </ul>       
                     </div>
                 
@@ -55,9 +57,9 @@
             </p>
 		</div>
 		<div class="col-sm-4">
-		    <h5 class="uppercase general-sub">Download</h5>
-			<p class="inline-block">Need a printable version of my CV? Download it here.
-                <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+		    <h5 class="uppercase general-sub">Rules</h5>
+			<p class="inline-block">A printable copy of the rules are available here.
+                <a href="assets/documents/Rules.pdf" target="_blank" class="rules-pdf">
 			        <i class="fa fa-download" aria-hidden="true"></i>
 			        <span class="sr-only">Download link.</span>
                 </a>
@@ -67,29 +69,17 @@
             <h5 class="uppercase general-sub">Social</h5>
             <ul class="list-inline social-links">
                 <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.facebook.com/jabbathehuck">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://twitter.com/jabbathehuck">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
 				</li>
-				<li class="list-inline-item">
-				    <a target="_blank" href="#">
-					    <i class="fa fa-linkedin" aria-hidden="true"></i>
-					    <span class="sr-only">LinkedIn</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-pinterest" aria-hidden="true"></i>
-                        <span class="sr-only">Pinterest</span>
-                    </a>
-                </li>
                 <li class="list-inline-item">
                     <a target="_blank" href="#">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -108,4 +98,15 @@
 </footer>
     
 </body>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </html>

@@ -24,37 +24,24 @@ background-color: #183446;
 h1,h2,h3,h4{
     margin: 0;
 }
-.uppercase{
-    text-transform: uppercase;
-}
 .logo{
     background:url(../images/banner.png) no-repeat;
     min-height: 215px;
 }
 .general-sub{
-    font-family: "Exo", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 300;
     color: #F7F3E3;
 }
 .inline-block{
     display: inline-block;
 }
-.row-table{
-    display: table;
-}
+
 .section-column{
     display: table-cell;
     padding: 0 30px 30px;
     float:none;
 }
-.history-heading,
-.section-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
 header{
     margin: 0;
     
@@ -65,14 +52,14 @@ header{
 }
 
 .name{
-    font-family: "Exo", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
     color: #ffffff;
 }
 .title{
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -87,14 +74,14 @@ header{
     font-size: 0;
 }
 #nav{
-    margin: 0;
+    margin-left: 0;
 }
 #nav li{
     font-size: 14px;
     padding: 0;
 }
 .menuitem{
-    height: 120px;
+    height: 215px;
     text-align: center;
     padding: 0;
 }
@@ -105,7 +92,7 @@ header{
     height: 120px;
 }
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 75px;
     display: block;
     color: #F7F3E3;
     font-size: 26px;
@@ -129,3 +116,40 @@ footer{
     background-color: #183446;
     color: #fff;
 }
+/*----------------------Contact Form*/
+
+.contact-heading{
+    font-family: "Helvetica", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #38AECC;
+}
+
+
+
+/*----------------------Media Query*/
+
+@media(max-width: 992px){
+    .center-form{
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 50%;
+        min-height: 240px;
+    }
+    .logo{
+        background:url(../images/jabba-logo.jpg) no-repeat;
+    }
+}
+
